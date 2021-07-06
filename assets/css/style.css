@@ -1,0 +1,288 @@
+@font-face {
+    font-family:Athen;
+    src: url(../font/Athene.otf);
+}
+@font-face {
+    font-family:open sans;
+    src: url(../font/OpenSans-Regular.ttf)
+
+}
+
+/* #002a5a, #F4C4C4, #282b29, #7d2222,
+ #DEB873, #D2D2D2, #1d8883*/
+ 
+ /* styling the p in the top */
+ header>p{
+     color:#002a5a;
+     font-family:open sans;
+     display:inline;
+     font-size:14px;
+
+ }
+ /*control Margin of p(top)*/
+ header p:nth-child(1){
+     margin-left:7%;
+ }
+ header p:nth-child(2){
+    margin-left:73%;
+}
+/* styling the headlines(h1) */
+header>h1{
+    
+    text-align: center;
+    color:#002a5a;
+    font-family:Athen;
+    font-size:150px;
+    width:80%;
+    margin:auto auto;
+    border-bottom:1px solid #002a5a;
+    
+
+}
+/* styling the line inside the headline(2) */
+header>h1>hr{
+    display:inline-block;
+    width:15%;
+    border:1px solid #002a5a;
+    margin:50px auto;
+    margin-right:2%;
+}
+/* styling the figure 
+container of the first image*/
+header>figure{
+    display:block;
+    width:30%;
+    margin:40px auto;
+}
+header>figure>img{
+   width:99%;
+}
+header>figure>figcaption {
+    display:inline-block;
+    color:#002a5a;
+    font-family:open sans;
+    font-size:26px;
+    margin-top:30px;
+    margin-bottom:80px;
+}
+header>figure>figcaption>b{
+    display:inline;
+    font-family:Athen;
+    
+    
+}
+/* styling the sec2 Release */
+.release{
+    background-color:#F4C4C4;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+/* first p (.02) from releas-sec */
+.release p:nth-child(1){
+    margin-left:7%;
+    padding-top:20px;
+    
+}
+/*Headline styling of Releas-sec*/
+.release>h2{
+    font-size:170px;
+    font-family:Athen;
+    margin-top:15px;
+    margin-bottom:0;
+}
+/* the long p from sec-release */
+.release p:nth-child(3){
+    
+    line-height:36px;
+    text-transform:uppercase;
+    width:37%;
+    margin-left:59%;
+    font-size:18px;
+    font-family:open sans;
+    color:#282b29;
+    
+    
+}
+/* styling the right table */
+.release>table{
+    width:40%;
+    margin-left:auto;
+    margin-right:6%;
+    margin-top:80px;
+    margin-bottom:50px;
+}
+th{
+    text-align:right;
+    font-size:18px;
+    color:#282b29;
+    text-transform: uppercase;
+
+}
+td{
+    padding:20px 2px;
+}
+th ,tr ,td{
+    border-bottom:1px solid #282b29;
+    color:#282b29;
+    font-family:open sans;
+}
+tr td:nth-child(3){
+    width:16%;
+    text-align:right;
+    font-size:14px;
+    
+}
+tr td:nth-child(2){
+    
+    
+    font-size:21px;
+    
+}
+tr td:nth-child(1){
+    
+    
+    font-size:14px;
+    
+}
+/* image styling from 
+sec-release (last element)*/
+.release>img{
+    display:block;
+    width:8%;
+    margin-left:auto;
+    margin-right:6%;
+    
+}
+/*section Works Styling */
+.works{
+    background-color:#DEB873;
+    padding-bottom:50pX;
+    padding-top:50px;
+}
+.works p:nth-child(1){
+    text-align:right;
+    font-size:16px;
+    font-family:Athen;
+    color:#7d2222;
+    margin-right:7%;
+    
+
+}
+.works>h2{
+    text-align:right;
+    font-size:170px;
+    font-family:Athen;
+    margin-top:30px;
+    margin-bottom:0;
+    color:#7d2222;
+
+
+}
+.works p:nth-child(3){
+    line-height:36px;
+    text-transform:uppercase;
+    width:31.5%;
+   display:block;
+    margin-left:7%;
+    font-size:18px;
+    font-family:open sans;
+    color:#7d2222;
+    margin-bottom:200px;
+    
+}
+.works>article{
+    
+    width:84%;
+    margin:200px auto;
+    padding:0 0 270px 0px;
+    
+}
+.works>article>h2{
+    font-size:76px;
+    line-height:140%;
+    font-family:Athen;
+    color:#7d2222;
+}
+.art1{
+    
+    background-image: url('../img/bg-marconatto-1.jpg');
+    background-repeat: no-repeat;
+    background-position:right;
+    
+}
+.art2>h2{
+    text-align:right;
+}
+.art2{
+    display:block;
+    background-image: url('../img/kathe_cover-1.jpg');
+    background-repeat: no-repeat;
+    background-position:left;
+    
+}
+.art3{
+    
+    background-image: url('../img/bg-nicole-1.jpg');
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.art4>h2{
+    text-align:right;
+}
+.art4{
+    display:block;
+    background-image: url('../img/boa_cover-1.jpg');
+    background-repeat: no-repeat;
+    background-position:left;
+    
+}
+/* styling the footer */
+footer{
+    background-color: #D2D2D2;
+    padding:0;
+    margin:0;
+    border:0;
+}
+ 
+footer p:nth-child(1){
+    display:block;
+    margin-top:30px;
+    margin-left:7%;
+    
+    color: #1d8883;
+}
+footer>h2{
+    font-size:170px;
+    font-family:Athen;
+    margin-top:30px;
+    margin-bottom:0;
+    color: #1d8883;
+}
+footer p:nth-child(3){
+    line-height:36px;
+    text-transform:uppercase;
+    width:22%;
+   display:block;
+    margin-left:34%;
+    font-size:22px;
+    font-family:open sans;
+    color:#1d8883;
+}
+ul{
+    list-style:none;
+    width:10%;
+    margin-left:auto;
+    margin-right:6%;
+    padding-bottom:10px;
+}
+ul>li{
+    text-align: right;
+    margin:10px 2px;   
+}
+ul>li>a{
+    text-align: right;
+    text-decoration-line: none;
+    font-size:24px;
+    font-family:open sans;
+    color:#1d8883; 
+}
